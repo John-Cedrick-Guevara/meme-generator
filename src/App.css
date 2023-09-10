@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Karla:wght@400;500&family=Kumbh+Sans:wght@700&family=League+Spartan:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,700;1,400;1,800&family=Space+Mono:wght@700&family=Ubuntu:wght@500&display=swap");
+
+#root {
+  font-family: "Karla", sans-serif;
+
+  height: 100vh;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  padding: 20px 30px;
+
+  color: white;
+
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+header img {
+  width: 90px;
+
+  margin-right: 20px;
+}
+
+header h2 {
+  margin-right: auto;
+
+  font-weight: 500;
+  font-size: 30px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 60px;
+  padding: 20px;
+}
+
+.form button {
+  width: 100%;
+
+  font-size: 20px;
+
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+
+  border: none;
+
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.input-container {
+  display: flex;
+  gap: 15px;
+
+  margin-bottom: 10px;
+
+  width: 100%;
+}
+
+.input-container input {
+  font-size: 20px;
+
+  padding: 8px;
+
+  border-radius: 10px;
+
+  border: 1px solid grey;
+
+  width: 100%;
+}
+
+.meme-image {
+  width: 100%;
+  height: auto;
+}
+
+.meme-container {
+  margin-top: 20px;
+  position: relative;
+  color: white;
+  font-size: 30px;
+  height: fit-content;
+
+  text-align: center;
+}
+
+.Text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.topText {
+  top: 10px;
+}
+
+.bottomText {
+  bottom: 10px;
+}
+
+
+.positioning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+
+  font-size: 20px;
+}
+
+.positioning input {
+  height: 30px;
+  width: 50px;
+  margin: 0 30px 0 5px;
+}
